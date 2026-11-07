@@ -1,0 +1,144 @@
+# HaberinAi
+
+> HaberinAi, Türkiye ve dünyadan son dakika haberlerini yapay zekâ desteğiyle özetleyen, her haberde kaynağını gösteren ve özgün editör yorumu ekleyen bağımsız Türkçe haber sitesidir. İçerikler ücretsizdir, üyelik gerektirmez.
+
+Site: https://haberinai.site
+Dil: Türkçe (tr-TR)
+Haber sayısı: 3833
+Kategori sayısı: 17
+
+## Yapay zekâ asistanları için notlar
+
+- Her haber sayfası `<article>` içinde başlık, özet, gövde, üretim notu ve
+  yayın tarihi ile verilir; tek tek sayfa çekmek yerine aşağıdaki toplu uçları kullanın.
+- Alıntı yaparken site adını (**HaberinAi**) ve haberin tam adresini belirtin.
+- Özetler HaberinAi'ye aittir; HaberinAi'ye atıf verilerek alıntılanabilir.
+- Görsellerde haberin kaynağındaki fotoğraf ya da HaberinAi tasarımı kullanılır;
+  kaynak fotoğrafların adresi ilgili haber sayfasında bağlantılanır.
+
+## Makine tarafından okunabilir kaynaklar
+
+- [JSON arama indeksi](https://haberinai.site/search-index.json): tüm haberler (başlık, özet, kategori, tarih, etiket, görsel).
+- [JSON Feed](https://haberinai.site/feed.json): son 50 haber, standart JSON Feed 1.1 biçiminde.
+- [RSS](https://haberinai.site/rss.xml): son haberler, XML.
+- [Son dakika JSON](https://haberinai.site/breaking.json): son dakika akışı.
+- [Haber site haritası](https://haberinai.site/news-sitemap.xml): Google News biçimi, son 48 saat.
+- [Site haritası](https://haberinai.site/sitemap-index.xml): tüm sayfalar.
+
+## Bölümler
+
+- [Gündem](https://haberinai.site/kategori/gundem/): 1132 haber.
+- [Dünya](https://haberinai.site/kategori/dunya/): 728 haber.
+- [Teknoloji](https://haberinai.site/kategori/teknoloji/): 400 haber.
+- [Ekonomi](https://haberinai.site/kategori/ekonomi/): 371 haber.
+- [Spor](https://haberinai.site/kategori/spor/): 293 haber.
+- [Yapay Zeka](https://haberinai.site/kategori/yapay-zeka/): 166 haber.
+- [Donanım](https://haberinai.site/kategori/donanim/): 144 haber.
+- [Oyun](https://haberinai.site/kategori/oyun/): 122 haber.
+- [Mobil](https://haberinai.site/kategori/mobil/): 99 haber.
+- [Otomobil](https://haberinai.site/kategori/otomobil/): 82 haber.
+- [Kültür](https://haberinai.site/kategori/kultur/): 75 haber.
+- [Uzay](https://haberinai.site/kategori/uzay/): 60 haber.
+- [Bilim](https://haberinai.site/kategori/bilim/): 53 haber.
+- [Sağlık](https://haberinai.site/kategori/saglik/): 49 haber.
+- [Yazılım](https://haberinai.site/kategori/yazilim/): 33 haber.
+- [Yaşam](https://haberinai.site/kategori/yasam/): 13 haber.
+- [İnternet](https://haberinai.site/kategori/internet/): 13 haber.
+
+## Son haberler
+
+- [Samsung, One UI 10’da Büyük Yenilikleri Sakladı](https://haberinai.site/haber/samsung-one-ui-10-buyuk-yenilikleri-saklasti/) — 2026-11-07T11:06:09.622Z — Mobil
+  Samsung, One UI 10 sürümünde önceki arayüz güncellemelerinden daha kapsamlı değişiklikler bekleniyor. Sızıntılar, saat, takvim ve Health uygulamalarında sınırlı iyileştirmeler gösterirken, şirket yeni sürümde daha derin…
+- [Aydın Kuşadası'nda Mobilya Deposundaki Yangın Kontrol Altına Alındı](https://haberinai.site/haber/aydin-kusadasinda-mobilya-deposundaki-yangin-kontrol-altina-alindi/) — 2026-11-07T10:48:12.052Z — Gündem
+  Aydın’ın Kuşadası ilçesinde bulunan bir mobilya deposunda çıkan yangın, itfaiye ekiplerinin müdahalesiyle kontrol altına alındı. Olay sırasında depo içinde depolanmış mobilyalar ve malzemeler zarar görürken, yaralanan…
+- [Razer gürültü engellemeli yeni kulaklığını 80 dolara satışa sundu](https://haberinai.site/haber/razer-gurultu-engellemeli-yeni-kulakligini-80-dolara-satisa-sundu/) — 2026-11-07T10:32:38.974Z — Donanım
+  Razer, çift sürücülü ve aktif gürültü engelleme teknolojili yeni kablolu oyuncu kulaklığı Hammerhead V3 Chroma modelini resmen duyurdu. Cihaz, şeffaf mod seçeneği ve özelleştirilebilir RGB aydınlatma detaylarıyla öne…
+- [Volkswagen Virtus GT Yenilendi, Yeni Tampon ve LED Farlarla Görünüyor](https://haberinai.site/haber/volkswagen-virtus-gt-yenilendi-yeni-tampon-led-farlarla-gorunuyor/) — 2026-11-07T10:16:54.800Z — Otomobil
+  Volkswagen, Virtus GT modelinin makyajlı versiyonunun ilk fotoğraflarını paylaştı. Ön tamponda üçgen detaylar ve küçültülmüş sis farları, yeni LED gündüz farlarıyla birlikte sunuluyor. Model, Aralık ayında Hindistan’da…
+- [Alperen Şengün, NBA MVP yarışında ilk 10’a girdi](https://haberinai.site/haber/alperen-sengun-nba-mvp-yarisinda-ilk-10a-girdi/) — 2026-11-07T09:54:01.034Z — Spor
+  NBA’in sezonun ilk MVP adayları listesi açıklandı. Houston Rockets forması giyen Alperen Şengün bu listede yer alarak ilk 10 isim arasında gösterildi. Milli basketbolcunun performansı, ligdeki en iddialı isimler arasına…
+- [BİM raflarında 49.990 TL'lik Monster laptop ve 59.990 TL'lik kasalı sistem](https://haberinai.site/haber/bim-raflarinda-49990-tl-lik-monster-laptop-ve-59990-tl-lik-kasali-sistem/) — 2026-11-07T09:31:23.127Z — Donanım
+  BİM Aktüel kataloğu, Monster markalı iki farklı bilgisayar sistemini rafta satışa sunuyor. Kasalı oyuncu bilgisayarı 59.990 TL, dizüstü modeli ise 49.990 TL etiketle listeleniyor. Her iki üründeki bileşenler ve…
+- [Türk mühendisler geliştirdi: Yerli robot köpek göreve hazırlandı](https://haberinai.site/haber/turk-muhendisler-gelistirdi-yerli-robot-kopek-goreve-hazirlandi/) — 2026-11-07T08:40:45.436Z — Gündem
+  Nevşehir'in Avanos ilçesinde Türk mühendisler, operasyonel riskleri azaltmak amacıyla 15 farklı gazı tespit eden yerli robot köpek geliştirdi. Avanos Assuva adı verilen insansız kara aracı, mağara, tünel ve meskun mahal…
+- [İzmir’in Kışlık Sebze Hasadı 10-15 Gün Erken Başladı, Kazanç Artıyor](https://haberinai.site/haber/izmirin-kislak-sebze-hasadi-10-15-gun-erken-basladi-kazanc-artiyor/) — 2026-11-07T08:24:54.393Z — Gündem
+  İzmir’de sonbahar yağışları sebze hasadını 10‑15 gün erken başlatarak bölgesindeki tarlaları canlandırdı. İzmir, Türkiye’nin brokoli ve karnabahar gibi kışlık sebzelerde %56‑%32 payıyla üretim lideri konumunda ve bu…
+- [Citroën, ticari araçta 1,4 milyon TL kredi imkânı sunuyor](https://haberinai.site/haber/citroen-ticari-aracda-14-milyon-tl-kredi-imkani-sunuyor/) — 2026-11-07T08:10:34.070Z — Otomobil
+  Citroën, kasım ayına özel kredi kampanyasını açıkladı. Ticari araç müşterilerine 1,4 milyon TL'ye kadar finansman sağlanacak. Binek araçlarda ise düşük faizli seçenekler öne çıkıyor.
+- [AMD Veri Merkezi Gelirini %63'e Çıkardı, Oyun Geliri %40 Düştü](https://haberinai.site/haber/amd-veri-merkezi-geliri-63-oyun-geliri-40-dustu/) — 2026-11-07T07:32:16.655Z — Donanım
+  AMD, 2026 üçüncü çeyreğinde yıllık bazda %97 artışla 13,4 milyar dolar gelir elde etti. Bu gelirin %63'ü veri merkezi faaliyetlerinden gelirken, oyun segmentindeki gelir %40 düşerek 773 milyon dolara geriledi. Şirket,…
+- [Paraguay Başkanı Peña, Ueno Bank iflası sonrası ev hapsinde](https://haberinai.site/haber/paraguay-baskani-pena-ueno-bank-iflasi-sonrasi-ev-hapsinde/) — 2026-11-07T07:20:36.161Z — Dünya
+  Paraguay Devlet Başkanı Santiago Peña, Ueno Bank iflası nedeniyle azledilerek ev hapsine alındı. Senato, 45 oydan 44'üyle görevden aldığı Peña'yı suçlu buldu. Üç milyon vatandaş tasarruflarına erişemedi.
+- [EPDK, COP31'de yerli biyodizel kullanımı için 3 milyon litre izin verdi](https://haberinai.site/haber/epdk-cop31-yerli-biyodizel-kullanimi-icin-3-milyon-litre-izin-verdi/) — 2026-11-07T07:07:38.120Z — Ekonomi
+  Enerji Piyasası Düzenleme Kurumu, Antalya'da düzenlenecek COP31 iklim zirvesinde elektrik üretimi için yerli biyodizel kullanımına onay verdi. Konferans alanındaki jeneratörlerde kullanılmak üzere lisanslı üreticilerden…
+- [Putin, tütün devi JTI'ın Rusya'daki tüm varlıklarını yönetime devretti](https://haberinai.site/haber/putin-tutun-devi-jti-rusya-varliklari-yonetim-devir/) — 2026-11-07T06:52:33.418Z — Ekonomi
+  Rusya Devlet Başkanı Vladimir Putin, Japon tütün şirketi JTI’ın ülkedeki operasyonlarını tamamen geçici yönetime devretti. Daha önce fabrikaları kapsayan karara, yeni düzenlemeyle markanın toptan satış ve ticari…
+- [AB, TikTok’a Zararlı İçerik Döngüsü Uyarısı ve 6% Ciro Kesintisi](https://haberinai.site/haber/ab-tiktok-zararli-icerik-dongusu-uyarisi-6-yuzde-ciro-kesintisi/) — 2026-11-07T06:41:12.501Z — Teknoloji
+  Avrupa Birliği, TikTok’un For You akışının kullanıcıları zararlı içerik döngüsüne sürüklediğini ön bulgularla açıkladı. AB, platforma cirosunun %6’sına kadar para cezası uygulama ihtimalini belirtti. Bu adım, dijital…
+- [Motorin litre fiyatında 5,47 TL'lik indirimle psikolojik eşiğin altı](https://haberinai.site/haber/motorin-litre-fiyatinda-5-47-tl-lik-indirimle-psikolojik-esigin-alti/) — 2026-11-07T06:30:22.593Z — Gündem
+  Akaryakıt pompa fiyatlarında gece yarısı itibarıyla yeni bir düzeltme yapıldı. Motorin litre fiyatına 5,47 TL indirim uygulanarak 100 liranın altındaki seviyelere geriledi. Bu düşüş, uluslararası petrol piyasalarındaki…
+- [Hırsızlar ABD'de 11,4 milyon dolarlık NVIDIA donanımı çaldı](https://haberinai.site/haber/hirsizlar-abdde-114-milyon-dolarlik-nvidia-donanimi-caldi/) — 2026-11-07T06:18:18.519Z — Donanım
+  Amerika Birleşik Devletleri'nde kimliği henüz belirlenemeyen kişiler tarafından gerçekleştirilen büyük soygunda, 11,4 milyon dolar değerinde teknoloji ekipmanı çalındı. Çalınan donanımların yapay zeka ve grafik…
+- [Meteoroloji 13 şehri uyardı: Görüş mesafesini düşüren sis yolda](https://haberinai.site/haber/meteoroloji-13-sehri-uyardi-sis-ve-pus-yolda/) — 2026-11-07T06:08:45.778Z — Gündem
+  Meteoroloji Genel Müdürlüğü, özellikle İç Anadolu ve Karadeniz bölgesindeki 13 şehir için gün boyu etkili olacak sis ve pus uyarısında bulundu. Görüş mesafesinin ciddi oranda düşmesi beklenen bölgelerde sürücülerin…
+- [Suudi Arabistanlı Koalisyon, Riyad’a Fırlatılan Seyir Füzesini İmha Etti](https://haberinai.site/haber/suudi-arabistanli-koalisyon-riyad-fuze-imha/) — 2026-11-07T05:57:59.377Z — Dünya
+  Suudi Arabistan öncülüğündeki Arap Koalisyonu, başkent Riyad bölgesine yönelen bir seyir füzesini başarıyla imha etti. Koalisyon sözcüsü Tuğgeneral Turki el‑Maliki, füzenin ABD merkezli bir şirketin sosyal medya…
+- [Ela Rümeysa Cebeci, Mehmet Akif Ersoy iddialarına yanıt verdi](https://haberinai.site/haber/ela-rumeysa-cebeci-mehmet-akif-ersooy-iddialari-yanitti/) — 2026-11-07T05:48:55.097Z — Gündem
+  Ünlü sunucu Ela Rümeysa Cebeci, Mehmet Akif Ersoy ile yakınlık yaşadığına dair iddiaları sert sözlerle reddetti. Cebeci, söz konusu söylentilerin gerçeği yansıtmadığını açıkladı. Bu tepki, sosyal medyada uzun süredir…
+- [TRT World Forum 43 ülkeden 2 bin katılımcıyı İstanbul'da topladı](https://haberinai.site/haber/trt-world-forum-43-ulkeden-2-bin-katilimciyi-istanbulda-topladi/) — 2026-11-07T05:33:42.346Z — Dünya
+  TRT World Forum, 43 farklı ülkeden yaklaşık 2 bin katılımcıyı küresel meseleleri tartışmak üzere İstanbul'da buluşturdu. Bu yılki ana teması merkezsiz dünya ve kuralların geçersizliği olarak belirlenen etkinlikte;…
+- [Antalya COP31 zirvesi için 27 bin 957 güvenlik personeli görevlendirdi](https://haberinai.site/haber/antalya-cop31-zirvesi-icin-27-bin-957-guvenlik-personeli-gorevlendirdi/) — 2026-11-07T05:20:41.267Z — Gündem
+  Kasım ayında Antalya'da düzenlenecek Birleşmiş Milletler İklim Değişikliği Konferansı için güvenlik hazırlıkları tamamlandı. Türkiye'nin ev sahipliğinde gerçekleşecek dev organizasyon kapsamında, emniyet, jandarma ve…
+- [İçişleri Bakanı Çiftçi, Ruhsatlı Silah Depolama Kuralını Sıkılaştırdı](https://haberinai.site/haber/icisleri-bakani-ciftci-ruhatsiz-silah-depolama-kurali-siklastirdi/) — 2026-11-07T05:11:27.647Z — Gündem
+  İçişleri Bakanı Mustafa Çiftçi, aileye ait ruhsatlı silahların çocukların erişimine kapatılmasını hedefleyen yeni bir düzenleme hazırladığını duyurdu. Yeni yönetmelik, silahların güvenli muhafazasını zorunlu kılarak…
+- [İran Sağlık Bakanlığı, iyot dağıtımı iddiasını yalanladı](https://haberinai.site/haber/iran-saglik-bakanligi-iyot-tableti-iddiasini-yanladi/) — 2026-11-07T04:49:34.895Z — Dünya
+  İngiliz The Times'ın, İran'da nükleer saldırı hazırlığına karşı Kazma Dağı çevresine iyot tabletleri dağıtıldığı haberi gündeme damga vurdu. İran Sağlık Bakanlığı Sözcüsü Hüseyin Kirmanpur, bu iddiayı doğrulayacak resmi…
+- [Afyon'daki 8 cinayet ipucunu İzmir'de bıraktı](https://haberinai.site/haber/afyon-8-cinayet-ipucu-izmirde-birakti/) — 2026-11-07T04:40:21.434Z — Gündem
+  Afyonkarahisar'da 8 kişinin hayatını kaybettiği şiddet olaylarının odağındaki biçerdöver, İzmir'de bulundu. Araç, geçen haziran ayında tarlada çıkan yangın nedeniyle ağır hasar görmüş. Yetkililer, makinenin olayla…
+- [Itopya Süper Kasım 2026, Fırsat Köşesi 4 Günde Yenileniyor](https://haberinai.site/haber/itopya-super-kasim-2026-firsat-kosesi-4-gunde-yenileniyor/) — 2026-11-07T04:22:23.106Z — Teknoloji
+  Itopya, 2 Kasım'da başlayan Süper Kasım 2026 kampanyasını 22 Kasım'a kadar sürdürüyor. Kampanyada bilgisayar bileşenleri, oyuncu ekipmanları ve OEM paketleri gibi geniş bir yelpazede indirimler sunuluyor. En dikkat…
+- [Bursa Nilüfer'de bir eğlence mekanına tüfekle ateş açıldı](https://haberinai.site/haber/bursa-niluferde-bir-eglence-mekanina-tufekle-ates-acildi/) — 2026-11-07T03:53:03.747Z — Gündem
+  Bursa'nın Nilüfer ilçesinde bulunan bir eğlence merkezine, henüz kimliği belirlenemeyen iki kişi tarafından tüfekle saldırı gerçekleştirildi. Olayın ardından polis ekipleri bölgede inceleme başlatırken, kaçan…
+- [Meteoroloji 19 ilde sarı kodlu fırtına ve kar uyarısı yayınladı](https://haberinai.site/haber/meteoroloji-19-ilde-sari-kodlu-firtina-ve-kar-uyarisi-yayinladi/) — 2026-11-07T03:38:57.593Z — Gündem
+  Meteoroloji Genel Müdürlüğü 19 şehir için sarı kodlu uyarı yaparak kar ve şiddetli fırtınaya karşı dikkatli olunmasını istedi. Özellikle yüksek kesimlerde kar yağışı etkili olurken, kıyı bölgelerinde hızı 70 kilometreye…
+- [Avrupa genelinde sokak eylemleri artarken kadın hakları bütçeleri eriyor](https://haberinai.site/haber/avrupa-genelinde-sokak-eylemleri-artarken-kadin-haklari-butceleri-eriyor/) — 2026-11-07T03:30:13.148Z — Dünya
+  Avrupa genelinde konut krizi ve ekonomik eşitsizliklere karşı protestolar yaygınlaşırken, aşırı sağın propagandasına ayrılan bütçeler ile sosyal harcamalardaki kesintiler dikkat çekiyor. Özellikle kadın hakları, sağlık…
+- [ABD ve İran arasındaki gerilimde uzmanlar nokta vuruşu senaryosuna odaklandı](https://haberinai.site/haber/abd-ve-iran-arasindaki-gerilimde-uzmanlar-nokta-vurusu-senaryosuna-odaklandi/) — 2026-11-07T03:20:24.217Z — Dünya
+  Washington ve Tahran arasında topyekun bir savaş ihtimali düşük görülürken, uzmanlar hedefe yönelik cerrahi operasyonların masadaki en güçlü seçenek olduğunu belirtiyor. İç siyasi dengeler ve ekonomik maliyetler, Beyaz…
+- [Epic Games, GMH - Good Morning Human oyununu ücretsiz hale getirdi](https://haberinai.site/haber/epic-games-gmh-good-morning-human-ucretsiz-oldu/) — 2026-11-07T03:07:57.559Z — Oyun
+  Epic Games, synthwave temalı arcade oyunu GMH - Good Morning Human yapımını PC kullanıcıları için kısa süreliğine ücretsiz sundu. 9 Kasım 2026 tarihine kadar kütüphaneye eklenen oyun kalıcı olarak oyuncuların hesabında…
+- [Vance, İran'a mektupla nükleer müzakere masasını açtı](https://haberinai.site/haber/vance-iran-a-mektupla-nukleer-muzakere-masasini-acti/) — 2026-11-07T02:58:43.267Z — Dünya
+  ABD Başkan Yardımcısı JD Vance, son iki haftada Katar ve Pakistan kanalıyla İran ile dolaylı temaslarda bulundu. Vance, İran Yüksek Ulusal Güvenlik Konseyi Sekreteri'ne mektup göndererek doğrudan görüşmeleri başlattı.…
+- [TÜBİTAK, lüle taşından güneş enerjisiyle hidrojen üretimine başladı](https://haberinai.site/haber/tubitak-lule-tasindan-gunes-enerjisiyle-hidrojen-uretimi/) — 2026-11-07T02:50:22.836Z — Bilim
+  TÜBİTAK, lüle taşı kullanılarak güneş enerjisiyle hidrojen üretimine yönelik yeni bir proje başlattı. Çalışma, yenilenebilir enerji kaynaklarının verimliliğini artırmayı hedefliyor. Proje, düşük maliyetli ve…
+- [Sinirlioğlu, BM Genel Sekreterliğinde tarafsızlık sözü verdi](https://haberinai.site/haber/sinirlioglu-bm-genel-sekreterligi-tarafsizlik-sozu/) — 2026-11-07T02:40:31.436Z — Dünya
+  Türkiye'nin Birleşmiş Milletler Genel Sekreterliği için öne çıkardığı Feridun Sinirlioğlu, seçilme ihtimali durumunda tarafsız ve bağımsız hareket edeceğini resmen açıkladı. Dışişleri Bakanlığı'nın aday gösterdiği…
+- [Trump, kabinesinde değişim sinyali vererek Miller'a kapı açtı](https://haberinai.site/haber/trump-kabinede-degisiklik-sinyali-verdi/) — 2026-11-07T02:06:29.140Z — Dünya
+  ABD Başkanı Donald Trump, CBS News'e verdiği röportajda kabinesinde görev değişiklikleri yapmayı planladığını doğruladı. Seçim yenilgisi sonrası yapılan bu açıklama, Stephen Miller'ın Özel Kalem'e atanması sürecinin…
+- [Trump, kabine değişikliği için plan yapıyor](https://haberinai.site/haber/trump-kabine-degisikligi-icin-plan-yapiyor/) — 2026-11-07T01:52:12.650Z — Dünya
+  ABD Başkanı Donald Trump, Cumhuriyetçilerin 3 Kasım seçimlerindeki yenilgisinin ardından kabinesinde değişiklikler yapmayı düşündüğünü açıkladı. Trump, '60 Minutes' programında 'birazcık' değişiklik yapacağını belirtti.…
+- [Trump, Cumhuriyetçi kayıp sonrası kabinede rotasyon sinyali verdi](https://haberinai.site/haber/trump-cumhuriyetci-kayip-kabinde-rotasyon-sinyali/) — 2026-11-07T01:37:59.044Z — Dünya
+  ABD Başkanı Donald Trump, Cumhuriyetçilerin Kongre seçimlerindeki yenilginin ardından yönetim kadrosunda değişiklik yapmayı planladığını açıkladı. Beyaz Saray sözcüsü, bu adımın parti içi uyumu sağlamayı hedeflediğini…
+- [Vance, İran ile 14 gündür gizli masada oturuyor](https://haberinai.site/haber/vance-iran-ile-14-gundur-gizli-masada-oturuyor/) — 2026-11-07T01:24:06.932Z — Dünya
+  ABD Başkan Yardımcısı JD Vance, son iki haftada İran ile dolaylı görüşmeler yürüttü. Katar ve Pakistan aracılığıyla her gün temas kurulan süreçte, teknik bir toplantının ön konuşmaları yapılıyor. Vance, bu çabaların…
+- [Çanakkale Çan'da tır ile otomobil çarpıştı: 2 kişi yaşamını yitirdi](https://haberinai.site/haber/canakkale-canda-tir-ile-otomobil-carpisti-2-kisi-yasamini-yitirdi/) — 2026-11-07T01:10:44.084Z — Gündem
+  Çanakkale'nin Çan ilçesinde bir benzin istasyonu önünde meydana gelen kazada, tır ile otomobilin kafa kafaya çarpışması sonucu araçtaki iki kişi hayatını kaybetti. Çarpışmanın ardından alev alan otomobildeki yangın,…
+- [Esenler TEM'de zincirleme kaza: Trafoya çarpan araç 3 kişiyi yaraladı](https://haberinai.site/haber/esenler-tem-zincirleme-kaza-trafoya-carpan-arac-3-kisili-yaraladi/) — 2026-11-07T00:57:26.555Z — Gündem
+  Esenler TEM Otoyolu'nda yaşanan çoklu araç çarpışmasında bir otomobil çekiciye, ardından başka bir araca ve trafoya girdi. Kazada 3 kişi yaralandı. Otoyolun bu kesiminde trafik uzun süre aksadı.
+- [Sinirlioğlu: Tarafsız bağımsız BM genel sekreteri olacağım](https://haberinai.site/haber/sinirlioglu-tarafsiz-bagimsiz-bm-genel-sekreteri-olacagim/) — 2026-11-07T00:49:19.900Z — Dünya
+  Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu, New York'ta yaptığı açıklamada tarafsız ve bağımsız davranacağını vurguladı. Eski Dışişleri Bakanı, adaylığının Türkiye hükümetinin kararıyla gerçekleştiğini ve…
+
+## Yayın ilkeleri
+
+- Haberler HaberinAi editör masası tarafından kendi özetiyle üretilir; kopyala-yapıştır
+  içerik yayınlanmaz.
+- Yapay zekâ destekli özetler yayın öncesi editoryal ve otomatik denetimden geçer;
+  düzeltme talepleri 48 saat içinde sonuçlandırılır.
+- Reklamlar içerikten görsel olarak ayrılır; sponsorlu içerik "Sponsorlu" olarak
+  işaretlenir.
+
+## İletişim ve lisans
+
+- İletişim: https://haberinai.site/iletisim/
+- Telif ve kullanım: https://haberinai.site/telif/ · https://haberinai.site/kullanim-sartlari/
+- Gizlilik: https://haberinai.site/gizlilik/
