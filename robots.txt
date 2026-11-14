@@ -1,0 +1,224 @@
+# HaberinAi — robots.txt
+# Haber içeriği arama motorlarına ve yapay zekâ asistanlarına açıktır.
+# Makine tarafından okunabilir özet: /llms.txt
+# JSON arama indeksi: /search-index.json · JSON Feed: /feed.json
+
+User-agent: *
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Googlebot-News
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: GoogleOther
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Mediapartners-Google
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: AdsBot-Google
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: MSNBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Copilot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Applebot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: meta-externalagent
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: FacebookBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: CCBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: YouBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: MistralAI-User
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Diffbot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: AI2Bot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Timpibot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: YandexBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Slurp
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+User-agent: Bravebot
+Allow: /
+Disallow: /hesap/
+Disallow: /profil/
+Disallow: /ara/
+
+Sitemap: https://haberinai.site/sitemap-index.xml
+Sitemap: https://haberinai.site/news-sitemap.xml
+Sitemap: https://haberinai.site/image-sitemap.xml

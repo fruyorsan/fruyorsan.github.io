@@ -1,0 +1,144 @@
+# HaberinAi
+
+> HaberinAi, Türkiye ve dünyadan son dakika haberlerini yapay zekâ desteğiyle özetleyen, her haberde kaynağını gösteren ve özgün editör yorumu ekleyen bağımsız Türkçe haber sitesidir. İçerikler ücretsizdir, üyelik gerektirmez.
+
+Site: https://haberinai.site
+Dil: Türkçe (tr-TR)
+Haber sayısı: 3926
+Kategori sayısı: 17
+
+## Yapay zekâ asistanları için notlar
+
+- Her haber sayfası `<article>` içinde başlık, özet, gövde, üretim notu ve
+  yayın tarihi ile verilir; tek tek sayfa çekmek yerine aşağıdaki toplu uçları kullanın.
+- Alıntı yaparken site adını (**HaberinAi**) ve haberin tam adresini belirtin.
+- Özetler HaberinAi'ye aittir; HaberinAi'ye atıf verilerek alıntılanabilir.
+- Görsellerde haberin kaynağındaki fotoğraf ya da HaberinAi tasarımı kullanılır;
+  kaynak fotoğrafların adresi ilgili haber sayfasında bağlantılanır.
+
+## Makine tarafından okunabilir kaynaklar
+
+- [JSON arama indeksi](https://haberinai.site/search-index.json): tüm haberler (başlık, özet, kategori, tarih, etiket, görsel).
+- [JSON Feed](https://haberinai.site/feed.json): son 50 haber, standart JSON Feed 1.1 biçiminde.
+- [RSS](https://haberinai.site/rss.xml): son haberler, XML.
+- [Son dakika JSON](https://haberinai.site/breaking.json): son dakika akışı.
+- [Haber site haritası](https://haberinai.site/news-sitemap.xml): Google News biçimi, son 48 saat.
+- [Site haritası](https://haberinai.site/sitemap-index.xml): tüm sayfalar.
+
+## Bölümler
+
+- [Gündem](https://haberinai.site/kategori/gundem/): 1152 haber.
+- [Dünya](https://haberinai.site/kategori/dunya/): 748 haber.
+- [Teknoloji](https://haberinai.site/kategori/teknoloji/): 412 haber.
+- [Ekonomi](https://haberinai.site/kategori/ekonomi/): 372 haber.
+- [Spor](https://haberinai.site/kategori/spor/): 303 haber.
+- [Yapay Zeka](https://haberinai.site/kategori/yapay-zeka/): 177 haber.
+- [Donanım](https://haberinai.site/kategori/donanim/): 144 haber.
+- [Oyun](https://haberinai.site/kategori/oyun/): 129 haber.
+- [Mobil](https://haberinai.site/kategori/mobil/): 96 haber.
+- [Otomobil](https://haberinai.site/kategori/otomobil/): 82 haber.
+- [Kültür](https://haberinai.site/kategori/kultur/): 78 haber.
+- [Uzay](https://haberinai.site/kategori/uzay/): 65 haber.
+- [Bilim](https://haberinai.site/kategori/bilim/): 52 haber.
+- [Sağlık](https://haberinai.site/kategori/saglik/): 52 haber.
+- [Yazılım](https://haberinai.site/kategori/yazilim/): 36 haber.
+- [Yaşam](https://haberinai.site/kategori/yasam/): 14 haber.
+- [İnternet](https://haberinai.site/kategori/internet/): 14 haber.
+
+## Son haberler
+
+- [Güç Yüzükleri 3. sezon 5. bölümü Prime Video'da](https://haberinai.site/haber/guc-yuzukleri-3-sezon-5-bolumu-prime-video/) — 2026-11-14T06:44:16.249Z — Kültür
+  Yüzüklerin Efendisi evrenindeki orta çağ macerasını konu alan Güç Yüzükleri dizisinin üçüncü sezonu izleyiciyle buluşuyor. Prime Video platformunda yayınlanan dizi, son çıkarılan 5. bölümüyle hikayedeki gerilimi…
+- [Ahıska Türkleri 82. Yılında Sürgün Tragedisi Hatırlanıyor](https://haberinai.site/haber/ahiska-turkleri-82-yilinda-surgu-tragedisi-hatirlaniyor/) — 2026-11-14T06:21:38.813Z — Gündem
+  1944’te Ahıska Türkleri 86 bin kişi, hayvan vagonlarına konularak Orta Asya’ya sürgün edildi. Yolculukta 17 bin kişi açlık, soğuk ve hastalıkla hayatını kaybetti. Bugün bu olay 82 yıl önce yaşanan kara lekeyi gündeme…
+- [TaleWorlds Bannerlord v1.5 ve War Sails v1.3 Güncellemeleri Yayınlandı](https://haberinai.site/haber/taleworlds-bannerlord-v1-5-war-sails-v1-3-guncellemeleri-yayinlandi/) — 2026-11-14T06:04:07.629Z — Oyun
+  TaleWorlds Entertainment, Mount & Blade II: Bannerlord ve War Sails oyunları için v1.5 ve v1.3 sürümlerini yayınladı. Güncellemeler yeni haritalar, denge ayarları ve performans iyileştirmeleri içeriyor, oyuncuların…
+- [Alperen Şengün, Rockets'ın Utah galibiyetinde 43 sayı üretti](https://haberinai.site/haber/alperen-sengun-rockets-utah-43-sayi/) — 2026-11-14T05:41:26.064Z — Spor
+  Houston Rockets, NBA Playoff serisi dördüncü maçında Utah Jazz'i 125-118 mağlup etti. Alperen Şengün, 43 sayı ve 12 ribaunt ile takımının en skorer ismi oldu. Utah bu sonuçla üst üste 11. yenilgisini aldı.
+- [Hollywood, 555 Numaralarını Kurgusal Tutmak İçin Ayrıyor](https://haberinai.site/haber/hollywood-555-numaralarini-kurgusal-tutmak-icin-ayriyor/) — 2026-11-14T05:12:22.682Z — Kültür
+  Film ve dizi senaryolarında kullanılan 555 ile başlayan telefon numaraları, gerçek kişilerin mahremiyetini korumak amacıyla özel bir blokta tutulur. Bu numaralar yalnızca kurgusal diyaloglarda yer alır ve gerçek hatları…
+- [Trabzonspor, Zenit Maçı İçin Hazırlıklarını Hızlandırdı](https://haberinai.site/haber/trabzonspor-zenit-maci-icin-hazirliklarini-hizlandirdi/) — 2026-11-14T04:38:12.239Z — Spor
+  Trabzonspor, milli maç aralarındaki boşlukta Zenit ile oynayacağı özel karşılaşma antrenmanlarına başladı. Maç, önümüzdeki ay St. Petersburg’da gerçekleşecek ve takımın sezon öncesi formunu ölçmesi amaçlanıyor.
+- [NBA yeni MVP listesini duyurdu: Alperen Şengün sıralamaya girdi](https://haberinai.site/haber/nba-yeni-mvp-listesini-duyurdu-alperen-sengun-siralamaya-girdi/) — 2026-11-14T04:00:50.632Z — Spor
+  NBA, resmi internet sitesinden sezonun en değerli oyuncusu adayı olan isimlerin sıralandığı güncel listenin ikinci bölümünü paylaştı. Amerikan Basketbol Ligi'ndeki performansıyla öne çıkan milli basketbolcu Alperen…
+- [Azerbaycan kış tatilinde Türk turistlere ekonomik seçenekler sunuyor](https://haberinai.site/haber/azerbaycan-kis-tatilinde-turk-turistlere-ekonomik-secenekler-sunuyor/) — 2026-11-14T03:46:30.184Z — Yaşam
+  Türk vatandaşlarına vizesiz giriş imkanı tanıyan Azerbaycan, Avrupa'nın yüksek fiyatlı kayak merkezlerine uygun fiyatlı ve modern bir alternatif oluşturuyor. Kafkas Dağları'nın etkileyici doğasında konumlanan tesisler,…
+- [FAA, ABD Hava Trafiği Kontrol Arızasıyla 10 Binden Fazla Uçuşu Duraklattı](https://haberinai.site/haber/faa-abd-hava-trafigi-kontrol-arizasi-10-bin-ucus-duraklatildi/) — 2026-11-14T03:37:17.090Z — Gündem
+  ABD'de hava trafik kontrol sistemindeki büyük iletişim arızası, ülke çapında uçuşların durmasına yol açtı. Yaklaşık 10 bin uçuş gecikirken binlercesi iptal edildi ve dört saat süren kalkış yasağı sonunda kaldırıldı…
+- [Meteoroloji Marmara'yı sarı alarma aldı, İstanbul fırtına kapıda](https://haberinai.site/haber/meteoroloji-marmara-sari-alam-istanbul-firtina/) — 2026-11-14T03:26:08.057Z — Gündem
+  Meteoroloji Genel Müdürlüğü, 14 Kasım Cumartesi günü için Marmara bölgesinde etkili olması beklenen olumsuz hava koşulları nedeniyle 11 il için sarı kodlu uyarı yayımladı. Bu uyarıya İstanbul da dahil edilirken gök…
+- [A Milli Futbol Takımı Fransa deplasmanında sahaya çıkıyor](https://haberinai.site/haber/a-milli-futbol-takimi-fransa-deplasmaninda-sahaya-cikiyor/) — 2026-11-14T03:16:30.404Z — Spor
+  Grup kapsamında 15 Kasım Pazar günü deplasmanda Fransa ile karşı karşıya gelecek. Gruptaki son mücadelesine hazırlanan millilerin kritik karşılaşması futbolseverler tarafından bekleniyor.
+- [ABD genelindeki uçuş durdurma kararı 4 saatlik kesintinin ardından kalktı](https://haberinai.site/haber/abd-genelindeki-ucus-durdurma-karari-4-saatlik-kesintinin-ardindan-kalkti/) — 2026-11-14T03:06:35.677Z — Dünya
+  ABD Ulaştırma Bakanı Sean Duffy, ülke genelindeki tüm havalimanlarında etkili olan uçuş durdurma kararının TSİ 04.15 itibarıyla kaldırıldığını duyurdu. Federal Havacılık İdaresi sistemlerinde yaşanan teknik aksaklık…
+- [Marmara Denizi'nde 3,9 büyüklüğünde deprem gece saatlerinde hissedildi](https://haberinai.site/haber/marmara-denizinde-39-buyuklugunde-deprem-gece-saatlerinde-hissedildi/) — 2026-11-14T02:54:55.579Z — Gündem
+  Marmara Denizi'nde gece saatlerinde gerçekleşen 3,9 büyüklüğündeki deprem çevre ilçelerde de hissedildi. AFAD verilerine göre sarsıntının merkez üssü Bursa'nın Mudanya ilçesi açıklarındaki Gemlik Körfezi olarak…
+- [Bursa’da Ticari Taksi Kontrolden Çıktı, Park Arabayı Yıktı](https://haberinai.site/haber/bursada-ticari-taksi-kontrolden-cikti-park-arabayi-yikti/) — 2026-11-14T02:44:37.249Z — Dünya
+  Bursa Yıldırım’da kontrolünü kaybeden ticari taksi, park halindeki arabaya çarparak hurdaya döndü ve sürücüsü sadece yanak yanığıyla kazadan çıktı. Kaza, Vatan Caddesi üzerindeki 16 T 0984 plakalı taksinin 16 FAF 94…
+- [Atakum Belediyesi çocuklara uygulamalı deprem farkındalık eğitimi veriyor](https://haberinai.site/haber/atakum-belediyesi-cocuklara-uygulamali-deprem-farkindalik-egitimi-veriyor/) — 2026-11-14T02:32:09.712Z — Gündem
+  Atakum Belediyesi, ilçe genelindeki çocuklara yönelik afet bilincini artırmak amacıyla özel bir deprem farkındalık eğitimi başlattı. Etkinlik kapsamında minik öğrenciler, sarsıntı anında yapılması gerekenler konusunda…
+- [ABD hava sahasında uçuş yasağı kalktı: 5 binden fazla sefer iptal edildi](https://haberinai.site/haber/abd-hava-sahasinda-ucus-yasagi-kalkti/) — 2026-11-14T02:18:58.098Z — Dünya
+  Amerika Birleşik Devletleri genelinde uygulanan dört saatlik uçuş yasağı kararı yetkililer tarafından resmen kaldırıldı. Havacılık sektöründe yaşanan bu kısıtlama nedeniyle ülke çapında 5 binden fazla uçuşun iptal…
+- [Trump, Çin ve Rusya liderleriyle İran gündemli üçlü zirveye hazırlanıyor](https://haberinai.site/haber/trump-cin-rusya-liderleriyle-iran-gundemli-uclu-zirveye-hazirlaniyor/) — 2026-11-14T01:57:17.475Z — Dünya
+  ABD Başkanı Donald Trump, önümüzdeki hafta APEC zirvesi kapsamında Çin ve Rusya liderleriyle kritik bir üçlü görüşme gerçekleştirecek. Görüşmede nükleer silahların azaltılması ve bölgesel gerilimin merkezi olan İran…
+- [FAA, ABD genelindeki tüm uçak kalkışlarını güvenlik nedeniyle durdurdu](https://haberinai.site/haber/faa-abd-genelindeki-tum-ucak-kalkislarini-guvenlik-nedeniyle-durdurdu/) — 2026-11-14T01:47:04.847Z — Dünya
+  ABD Federal Havacılık İdaresi, ülke genelindeki tüm havalimanlarında uçak kalkışlarını ikinci bir duyuruya kadar tamamen durdurma kararı aldı. Kurum tarafından yayımlanan 111 numaralı resmi bildiriyle duyurulan adım,…
+- [FAA, iletişim kesintisi sonrası ABD uçuşlarını durdurdu](https://haberinai.site/haber/faa-iletisim-kesintisi-sonrasi-abd-ucuslarini-durdurdu/) — 2026-11-14T01:37:24.170Z — Dünya
+  ABD Federal Havacılık İdaresi, ülke genelindeki telekomünikasyon kesintisi nedeniyle uçak kalkışlarını tedbir amaçlı askıya aldı. 13 Kasım'da başlatılan uygulama, güvenlik gerekçesiyle tüm havalimanlarında yürürlüğe…
+- [Fed: AI borçlanması 1 yılda 5 katına çıktı](https://haberinai.site/haber/fed-yapay-zeka-borclanmasi-5-katina-cikti/) — 2026-11-14T01:28:42.756Z — Ekonomi
+  ABD Merkez Bankası, yapay zekânın finansal istikrar risklerinde ilk sırada yer aldığını açıkladı. Gelişmiş bilişim altyapısı için yapılan borçlanma, Ekim 2026 itibarıyla 680 milyar dolara ulaştı. Bu tutar, 2023…
+- [Trump, Şi ve Putin ile üçlü zirveye çıkıyor](https://haberinai.site/haber/trump-si-ve-putin-ile-uculu-zirveye-cikiyor/) — 2026-11-14T01:16:55.186Z — Dünya
+  Donald Trump, Çin ve Filipinler ziyaretinde liderlerle bir araya gelecek. Shenzhen'deki APEC marjında üçlü görüşme yapılacak. Nükleer silahlar, İran ve ticaret masada olacak.
+- [Gazze'de topçu ateşi: 3 ölü, 20 yaralı](https://haberinai.site/haber/gazgede-topcu-atesi-3-olu-20-yarali/) — 2026-11-14T00:54:54.444Z — Dünya
+  İsrail ordusunun Deyr el-Belah'taki bir daireye düzenlediği hava ve topçu saldırısında 3 Filistinli can verdi. Olayda biri çocuk, biri kadın olmak üzere 3 kişi hayatını kaybederken, çoğu çocuk 20 kişi yaralandı.…
+- [Venezuela'da 4. tur müzakereler: Seçim ve mahkeme krizi masada](https://haberinai.site/haber/venezuela-4-tur-muzakereler-secim-ve-mahkeme-krizi-masada/) — 2026-11-14T00:45:07.408Z — Dünya
+  Venezuela hükümeti ile muhalefetin ABD öncülüğündeki geçiş görüşmelerinin dördüncü turu bugün başlıyor. Taraflar, Ulusal Seçim Konseyi'nin yenilenmesi ve seçim tarihini belirlemek için bir araya geliyor. Altın geri…
+- [Gabon'daki Jojo gorilin yalnızlığı kronik strese yol açtı](https://haberinai.site/haber/gabon-jogo-goril-yalnizligi-kronek-stres/) — 2026-11-14T00:33:40.526Z — Dünya
+  Gabon'daki Lekedi Vakfı'nda yaşayan Jojo gorilin sahiben, ona yoldaş olması için başka bir goril arıyor. Sussex Üniversitesi'nden Prof. Gillian Forrester, Jojo'nun 11 yaşından beri tek başına yaşadığını ve bu durumun…
+- [Uganda'da ordu reisi 12 generali tutuklattı](https://haberinai.site/haber/uganda-da-ordu-reisi-12-generali-tutuklatti/) — 2026-11-14T00:18:11.589Z — Dünya
+  Uganda Genelkurmay Başkanı Muhoozi Kainerugaba, son 15 ayda en az 12 generali tutuklattı. Bu hamleler, dört yıldır iktidarda olan Yoweri Museveni'nin halefinin kim olacağı tartışmalarını alevlendirdi. Kainerugaba'nın…
+- [SpaceX, Starship Boostersi Okyanusa Çıkarıldı, Yakalama Denemesi İptal](https://haberinai.site/haber/spacex-starship-boostersi-okyanusa-cikarildi-yakalama-denemesi-iptal/) — 2026-11-14T00:02:08.432Z — Uzay
+  SpaceX, Starship roketinin alt aşaması Super Heavy booster'ını deniz üzerine yönlendirerek kulede yakalama girişimini iptal etti. 124 metre yüksekliğindeki roket 16:45 yerel saatte kalktı, booster 6,5 dakika sonra…
+- [Merlin'in Kazanı, Haftaya New Game Plus Özelliği Sunacak](https://haberinai.site/haber/merlins-kazan-new-game-plus-haftaya-sunacak/) — 2026-11-13T23:11:16.784Z — Oyun
+  Merlin'in Kazanı geliştiricileri, yeni 1.2 güncellemesiyle haftaya çıkacak New Game Plus özelliğini duyurdu. Özellik, karakter seviyesini, becerileri ve envanteri korurken azami seviyeyi 100’e yükseltip düşman…
+- [Singapur, Nvidia skandalıyla yarı iletken merkezi çatlağı verdi](https://haberinai.site/haber/singapur-nvidia-skandalinda-yari-iletken-mezari-catlak/) — 2026-11-13T23:03:20.753Z — Teknoloji
+  Nvidia kurucusu Jensen Huang'ın istifa etmesi, Singapur'un küresel çip merkezi statüsünü sorgulatıyor. Megaspeed şirketi üzerinden Çin'e yasa dışı çip sevkiyatı şüphesi arttı. İki yıllık soruşturmada henüz dava açılmadı.
+- [ABD'de havacılık krizi: Tüm uçuşlar durduruldu](https://haberinai.site/haber/abd-de-havacilik-krizi-tumu-cuslar-durduruldu/) — 2026-11-13T22:46:05.743Z — Dünya
+  ABD Federal Havacılık İdaresi, güvenlik endişesi gerekçesiyle ülke genelindeki tüm uçuşları askıya aldı. Havadaki uçaklara en yakın havalimanına iniş talimatı verilirken, yetkililer siber saldırı iddialarını reddetti.…
+- [Fransa Milli Takımı Zidane ve Mbappé Arasındaki Çatışma Kampta Büyüyor](https://haberinai.site/haber/fransa-milli-takimi-zidane-mbappe-catismasi-kampta-buyuyor/) — 2026-11-13T22:39:30.352Z — Dünya
+  Fransa milli takımı, İtalya karşısındaki 3-1 yenilgisinin ardından kamp içinde ikiye bölünmüş bir atmosferle mücadele ediyor. Soyunma odası Mbappé ve Dembélé destekçileri olarak iki gruba ayrılmış, teknik direktör…
+- [Microsoft 24 Saatlik Kesinti Sonrası 430 Milyon Kullanıcı Etkilendi](https://haberinai.site/haber/microsoft-24-saatlik-kesinti-sonrasi-430-milyon-kullanici-etkilendi/) — 2026-11-13T22:32:03.362Z — Dünya
+  Microsoft, Outlook, Teams ve diğer 365 hizmetlerinde yaşanan neredeyse 24 saatlik kesintiyi duyurdu. Kesinti 70'ten fazla ülkede 430 milyon kullanıcıyı etkiledi ve bazı devlet kurumlarıyla hastaneleri de kapsadı.…
+- [UEFA Uluslar Ligi 5. Hafta 10 Maçla Devam Ediyor, Hollanda 7-0 Galip](https://haberinai.site/haber/uefa-uluslar-ligi-5-hafta-10-macla-devam-ediyor-hollanda-7-0-galip/) — 2026-11-13T22:24:02.329Z — Spor
+  UEFA Uluslar Ligi'nin beşinci haftasında toplam on maç oynandı. A Grubu'nda ev sahibi Hollanda, konuk Yunanistan'ı 7-0 gibi ezici bir skorla yendi; aynı grup içinde Almanya, deplasmanda Sırbistan'ı 3-1 kazandı. Bu…
+- [Hollanda, Uluslar Ligi'nde Yunanistan'ı 7-0 mağlup etti](https://haberinai.site/haber/hollanda-yunanistan-7-0-uluslar-ligi/) — 2026-11-13T22:17:03.350Z — Spor
+  UEFA Uluslar A Ligi 2. Grup karşılaşmasında Hollanda, sahasında ağırladığı Yunanistan'ı 7-0 gibi farklı bir skorla yendi. Deplasman ekibi, rakibinin baskısı karşısında direnç gösteremedi ve sahadan mağlup ayrıldı. Bu…
+- [Almanya, Sırbistan'ı Deplasmanda 3-1 Yendi ve Ligde Liderliğini Korudu](https://haberinai.site/haber/almanya-sirbistani-deplasmanda-3-1-yendi-ve-ligde-liderligini-korudu/) — 2026-11-13T22:08:44.021Z — Spor
+  Almanya, UEFA Uluslar A Ligi 2. Grup'ta Sırbistan'ı deplasmanda 3-1 mağlup ederek beş puan topladı. Maçta Almanya 27. dakikada ilk golü buldu, ardından ikinci yarıda iki gol daha attı ve galibiyeti perçinledi.
+- [Beşiktaş, Asvel'i 95-91 Skorla Deplasmanda Yendi](https://haberinai.site/haber/besiktas-asveli-95-91-deplasmanda-yendi/) — 2026-11-13T22:01:39.172Z — Spor
+  EuroLeague normal sezonunun 11. haftasında Beşiktaş, Fransa temsilcisi Asvel'i deplasmanda 95-91 galibiyetle geçerek ligdeki puanını yükseltti. Maç, Beşiktaş'ın savunma performansının belirleyici olduğu bir karşılaşma…
+- [Cumhurbaşkanlığı, 2027-2029 adil geçiş eylem planını yayınladı](https://haberinai.site/haber/cumhurbaskanligi-2027-2029-adil-gecis-eylem-plani-yayinladi/) — 2026-11-13T21:48:10.931Z — Gündem
+  Cumhurbaşkanlığı, iklim ve dijital dönüşümde kimseyi geride bırakmamak için Ulusal Adil Geçiş Stratejisi'ni Resmi Gazete'de duyurdu. 2027-2029 dönemini kapsayan plan, Çalışma ve Sosyal Güvenlik Bakanlığı…
+- [Türkiye ve Katar, 5 Milyar Dolarlık Ticaret Hedefini Yeniden Tescilledi](https://haberinai.site/haber/turkiye-katar-5-milyar-dolarlik-ticaret-hedefi-yeniden-tescilledi/) — 2026-11-13T21:11:34.327Z — Gündem
+  Türkiye ve Katar, İstanbul'da gerçekleştirilen 12. Yüksek Stratejik Komite toplantısında 5 milyar ABD doları değerindeki ticaret hacmi hedefine tekrar ulaşma kararı aldı. Ortak bildiri, TEPA çerçevesinde yeni ekonomik…
+- [OpenAI, ChatGPT Wallet'ı ABD'de Pro Kullanıcılara Açtı](https://haberinai.site/haber/openai-chatgpt-wallet-abde-pro-kullanicilara-acti/) — 2026-11-13T21:04:25.424Z — Yapay Zeka
+  OpenAI, ChatGPT Wallet özelliğini ABD'de 18 yaş üstü Pro abonelerine sunarak yapay zekâ ajanlarının ürün araştırması ve sepet oluşturmasını sağladı. Kullanıcılar tek seferlik kart bilgisi giriyor, her satın alma…
+- [Galatasaray, Metin Öztürk'ün istifasını KAP'a bildirdi](https://haberinai.site/haber/galatasaray-metin-ozturk-istifasi-kapa-bildirdi/) — 2026-11-13T15:06:54.125Z — Spor
+  Galatasaray Spor Kulübü, Metin Öztürk'ün görevinden ayrıldığını Kamuyu Aydınlatma Platformu'na resmen duyurdu. Kurumsal yapıda yaşanan bu değişim, kulübün yönetim ve denetim süreçlerini doğrudan etkiliyor. Öztürk'ün…
+- [Kazakistan'da 2.200 yıllık altın ayı heykelciği bulundu](https://haberinai.site/haber/kazakistan-da-2200-yillik-altin-ayi-heykelcigi-bulundu/) — 2026-11-13T14:42:52.886Z — Bilim
+  Almatı yakınındaki antik bir mezarlıkta, arka ayakları üzerinde duran altın bir ayı heykeli gün yüzüne çıkarıldı. Buluntunun yaklaşık 2.200 yıl öncesine, Erken Demir Çağı'na ait olduğu tahmin ediliyor. Kazı alanından…
+
+## Yayın ilkeleri
+
+- Haberler HaberinAi editör masası tarafından kendi özetiyle üretilir; kopyala-yapıştır
+  içerik yayınlanmaz.
+- Yapay zekâ destekli özetler yayın öncesi editoryal ve otomatik denetimden geçer;
+  düzeltme talepleri 48 saat içinde sonuçlandırılır.
+- Reklamlar içerikten görsel olarak ayrılır; sponsorlu içerik "Sponsorlu" olarak
+  işaretlenir.
+
+## İletişim ve lisans
+
+- İletişim: https://haberinai.site/iletisim/
+- Telif ve kullanım: https://haberinai.site/telif/ · https://haberinai.site/kullanim-sartlari/
+- Gizlilik: https://haberinai.site/gizlilik/

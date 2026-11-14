@@ -1,0 +1,31 @@
+var e=new Map;function t(e){return e.replace(/^\/haber\//,``).replace(/\/$/,``).trim()}async function n(){if(e.size>0)return e;try{let n=await fetch(`/search-index.json`);if(n.ok){let r=await n.json();for(let n of r){let r=t(n.u);r&&e.set(r,n)}}}catch{}return e}function r(e){let t=Date.parse(e);if(!t)return``;let n=Math.max(0,(Date.now()-t)/1e3);if(n<45)return`az önce`;let r=[[60,`sn`],[60,`dk`],[24,`sa`],[7,`gün`],[4.35,`hafta`],[12,`ay`]],i=`sn`;for(let[e,t]of r){if(n<e){i=t;break}n/=e}return`${Math.floor(n)} ${i} önce`}async function i(){let t=new URLSearchParams(window.location.search),a=(t.get(`u`)||``).trim(),o=(t.get(`id`)||``).trim(),s=document.getElementById(`profil-bekle`),c=document.getElementById(`profil-bulunamadi`),l=document.getElementById(`profil-icerik`),u=document.getElementById(`btn-geri`),d=()=>{s&&(s.hidden=!0,s.style.display=`none`)},f=()=>{d(),c&&(c.hidden=!1,c.style.display=`flex`),l&&(l.hidden=!0,l.style.display=`none`)},p=()=>{d(),c&&(c.hidden=!0,c.style.display=`none`),l&&(l.hidden=!1,l.style.display=`flex`)};u?.addEventListener(`click`,()=>{window.history.length>1?window.history.back():window.location.href=`/akis/`});let m=window.HaberinAi;if(!a&&!o){let e=m?.oturumOku?m.oturumOku():null;if(e&&(e.kadi||e.id)){window.location.replace(`/profil/`);return}f();return}if(n(),!m||typeof m.kullaniciProfili!=`function`){setTimeout(i,200);return}let h=null,g=[],_=new Promise(e=>setTimeout(e,4500));try{let e=Promise.all([m.kullaniciProfili(a,o),m.kullaniciYorumlari(a,o,60)]),t=await Promise.race([e,_]);Array.isArray(t)&&([h,g]=t)}catch{}if(!h&&(!g||!g.length)){f();return}await n();let v=h?.ad||a||`Okur`,y=h?.kadi?`@${h.kadi}`:h?.id?`Kayıtlı Okur`:`Okur`;document.title=`${v} — Profil · HaberinAi`;let b=document.getElementById(`kullanici-ad`),x=document.getElementById(`kullanici-kadi`),S=document.getElementById(`kullanici-avatar`),C=document.getElementById(`kullanici-rozetler`),w=document.getElementById(`kullanici-tarih`),T=document.getElementById(`stat-yorum-sayi`),E=document.getElementById(`stat-begeni-sayi`),D=document.getElementById(`sayac-yorumlar`),O=document.getElementById(`sayac-begeniler`);if(b&&(b.textContent=v),x&&(x.textContent=y),S&&(typeof m.avatarDoldur==`function`?m.avatarDoldur(S,h?.avatar||``,v):S.textContent=(v.trim().charAt(0)||`O`).toLocaleUpperCase(`tr`)),C){if(C.innerHTML=``,h?.rol===`yonetici`){let e=document.createElement(`span`);e.className=`kullanici__rozet kullanici__rozet--admin`,e.textContent=`Yönetici`,C.appendChild(e)}else if(h?.id){let e=document.createElement(`span`);e.className=`kullanici__rozet kullanici__rozet--uye`,e.textContent=`Kayıtlı Üye`,C.appendChild(e)}else{let e=document.createElement(`span`);e.className=`kullanici__rozet kullanici__rozet--okur`,e.textContent=`Okur`,C.appendChild(e)}if(h?.etiket&&String(h.etiket).trim()){let e=document.createElement(`span`);e.className=`kullanici__rozet kullanici__rozet--admin`,e.textContent=String(h.etiket).trim(),C.appendChild(e)}}if(w&&h?.olusturma){let e=new Date(h.olusturma);isNaN(e.getTime())||(w.hidden=!1,w.textContent=`${e.toLocaleDateString(`tr-TR`,{month:`long`,year:`numeric`})} tarihinden beri okur`)}let k=Math.max(g.length,Number(h?.yorum_sayisi)||0),A=Array.isArray(h?.begeniler)?h.begeniler:[],j=A.length;T&&(T.textContent=String(k)),E&&(E.textContent=String(j)),D&&(D.textContent=String(k)),O&&(O.textContent=String(j));let M=document.getElementById(`liste-yorumlar`),N=document.getElementById(`bos-yorumlar`);if(g.length===0)N&&(N.hidden=!1);else if(M){M.innerHTML=``;for(let t of g){let n=e.get(t.slug),i=n?.t||t.slug.replace(/-/g,` `),a=`/haber/${encodeURIComponent(t.slug)}/`,o=n?.c||`Haber`,s=n?.img||`/og-default.png`,c=document.createElement(`article`);c.className=`kullanici__yorum-kart`,c.innerHTML=`
+          <div class="kullanici__yorum-haber">
+            <img class="kullanici__yorum-resim" src="${s}" alt="" loading="lazy" />
+            <div class="kullanici__yorum-haber-detay">
+              <span class="kullanici__yorum-kat">${o}</span>
+              <a href="${a}" class="kullanici__yorum-baslik">${i}</a>
+            </div>
+          </div>
+          <div class="kullanici__yorum-govde">
+            <p class="kullanici__yorum-metin"></p>
+            <div class="kullanici__yorum-alt">
+              <div class="kullanici__yorum-sol">
+                <time datetime="${t.created_at}">${r(t.created_at)}</time>
+                ${t.begeni?`<span class="kullanici__yorum-kalp">${t.begeni} beğeni</span>`:``}
+              </div>
+              <a href="${a}#yorumlar" class="kullanici__yorum-git">
+                <span>Habere git →</span>
+              </a>
+            </div>
+          </div>
+        `;let l=c.querySelector(`.kullanici__yorum-metin`);l&&(l.textContent=t.metin||``),M.appendChild(c)}}let P=document.getElementById(`liste-begeniler`),F=document.getElementById(`bos-begeniler`);if(A.length===0)F&&(F.hidden=!1);else if(P){P.innerHTML=``;for(let t of A){let n=e.get(t);if(!n)continue;let i=`/haber/${encodeURIComponent(t)}/`,a=n.img||`/og-default.png`,o=n.c||`Gündem`,s=document.createElement(`a`);s.href=i,s.className=`kullanici__haber-kart`,s.innerHTML=`
+          <div class="kullanici__haber-gorsel-kap">
+            <img class="kullanici__haber-gorsel" src="${a}" alt="" loading="lazy" />
+            <span class="kullanici__haber-rozet">${o}</span>
+            <span class="kullanici__haber-video-etiket">Shorts</span>
+          </div>
+          <div class="kullanici__haber-govde">
+            <h3 class="kullanici__haber-baslik">${n.t}</h3>
+            <span class="kullanici__haber-tarih">${r(n.d)}</span>
+          </div>
+        `,P.appendChild(s)}P.children.length===0&&F&&(F.hidden=!1)}let I=document.querySelectorAll(`.kullanici__sekme`),L=document.querySelectorAll(`.kullanici__panel`);I.forEach(e=>{e.addEventListener(`click`,()=>{let t=e.dataset.hedef;I.forEach(e=>{e.classList.remove(`is-aktif`),e.setAttribute(`aria-selected`,`false`)}),e.classList.add(`is-aktif`),e.setAttribute(`aria-selected`,`true`),L.forEach(e=>{e.hidden=e.id!==t})})}),p()}document.readyState===`loading`?document.addEventListener(`DOMContentLoaded`,i):i();
